@@ -1,0 +1,25 @@
+{
+  "name": "radon-bulma",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liemlylac/radon-bulma.git"
+  },
+  "author": "liemlylac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liemlylac/radon-bulma/issues"
+  },
+  "homepage": "https://github.com/liemlylac/radon-bulma#readme",
+  "dependencies": {
+    "bulma": "^0.9.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
