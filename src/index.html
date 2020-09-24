@@ -8,35 +8,57 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<section>
-  <div class="container">
-    <h1 class="title">Organic Bulma</h1>
-
-    <p class="subtitle">
-      Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-    </p>
-
-    <div class="field">
-      <div class="control">
-        <input title="" class="input" type="text" placeholder="Input">
+<section class="hero is-primary is-small">
+  <div class="hero-head">
+    <nav class="navbar is-success" role="navigation" aria-label="dropdown navigation">
+      <div class="navbar-brand mt-1 ml-3">
+        <a href="#" class="">
+          <img src="assets/logo128.png" alt="logo">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
-    </div>
-
-    <div class="field">
-      <p class="control">
-          <span class="select">
-            <select title="">
-              <option>Select dropdown</option>
-            </select>
-          </span>
-      </p>
-    </div>
-    <div class="buttons">
-      <a class="button is-primary">Primary</a>
-      <a class="is-link">Link</a>
+      <div class="navbar-menu">
+        <div class="navbar-start"></div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="#" class="navbar-link">Dropdown</a>
+            <div class="navbar-dropdown">
+              <div class="navbar-item">
+                <a href="#" class="navbar-link">Link</a>
+              </div>
+              <div class="navbar-item">
+                <a href="#" class="navbar-link">Link</a>
+              </div>
+              <div class="navbar-divider"></div>
+              <div class="navbar-item">
+                <a href="#" class="navbar-link">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">Organic</h1>
+      <h2 class="subtitle">
+        Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
+      </h2>
     </div>
   </div>
 </section>
-
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <a href="http://github.com/liemlylac/organic-bulma" target="_blank">Organic</a> MIT license
+    </p>
+    <img src="assets/made-with-bulma.png" alt="Made with Bulma">
+  </div>
+</footer>
 </body>
 </html>
