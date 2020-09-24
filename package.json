@@ -1,5 +1,5 @@
 {
-  "name": "radon-bulma",
+  "name": "organic-bulma",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liemlylac/radon-bulma.git"
+    "url": "git+https://github.com/liemlylac/organic-bulma.git"
   },
   "author": "liemlylac",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liemlylac/radon-bulma/issues"
+    "url": "https://github.com/liemlylac/organic-bulma/issues"
   },
-  "homepage": "https://github.com/liemlylac/radon-bulma#readme",
+  "homepage": "https://github.com/liemlylac/organic-bulma#readme",
   "devDependencies": {
     "bulma": "^0.9.0",
     "css-loader": "^4.3.0",
